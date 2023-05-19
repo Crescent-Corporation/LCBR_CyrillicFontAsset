@@ -1,3 +1,4 @@
-# [LLC_ChineseFontAsset![](https://img.shields.io/github/release/LocalizeLimbusCompany/LLC_ChineseFontAsset.svg?label=最新版)](../../releases)
+# [LCBR_CyrillicFontAsset![]](../../releases)
 
-中文字体
+Обновлённые шрифты для русификатора.
+Пожалуйста, я умоляю, работайте... — Гид Найт
