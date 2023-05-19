@@ -1,5 +1,5 @@
-$TimeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById("China Standard Time")
-$Tag = [System.TimeZoneInfo]::ConvertTime($(Get-Item assets/tmpchinesefont).LastWriteTime, $TimeZone).ToString("yyMMdd")
+$TimeZone = [System.TimeZoneInfo]::FindSystemTimeZoneById("Russian Standard Time")
+$Tag = [System.TimeZoneInfo]::ConvertTime($(Get-Item assets/tmpchinesefont).LastWriteTime, $TimeZone).ToString("ddmmyyyy")
 echo "MY_TAG=$Tag" | Out-File -FilePath $env:GITHUB_ENV -Append
 $Path = "Release"
 New-Item -Name "$Path" -ItemType "directory" -Force
